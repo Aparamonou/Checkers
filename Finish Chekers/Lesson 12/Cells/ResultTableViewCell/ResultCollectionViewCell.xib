@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GloriaHallelujah-Regular.ttf">
+            <string>GloriaHallelujah</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ResultCollectionViewCell" id="gTV-IL-0wX" customClass="ResultCollectionViewCell" customModule="Lesson_12" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5j-7U-6rd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="game date:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TU2-rJ-Nnx">
+                                <rect key="frame" x="8" y="8" width="390" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="IZn-pe-F9H"/>
+                                    <constraint firstAttribute="height" constant="21" id="Qtu-01-kBw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6W-Ph-QQq">
+                                <rect key="frame" x="8" y="37" width="390" height="34"/>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dof-4K-SW8">
+                                <rect key="frame" x="8" y="75" width="185" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="fDl-Ul-4BV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SZ-W8-TZV">
+                                <rect key="frame" x="213" y="75" width="185" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="4d9-wK-8qK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoY-re-ap5">
+                                <rect key="frame" x="8" y="115" width="185" height="34"/>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbn-VN-K8R">
+                                <rect key="frame" x="213" y="113" width="185" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Won" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swM-gI-vbk">
+                                <rect key="frame" x="8" y="153" width="390" height="34"/>
+                                <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4SZ-W8-TZV" firstAttribute="trailing" secondItem="k6W-Ph-QQq" secondAttribute="trailing" id="0bx-86-iOq"/>
+                            <constraint firstItem="4SZ-W8-TZV" firstAttribute="leading" secondItem="Dof-4K-SW8" secondAttribute="trailing" constant="20" id="7iC-Mv-J1J"/>
+                            <constraint firstItem="swM-gI-vbk" firstAttribute="trailing" secondItem="k6W-Ph-QQq" secondAttribute="trailing" id="8NG-Uv-ZKS"/>
+                            <constraint firstItem="4SZ-W8-TZV" firstAttribute="top" secondItem="Dof-4K-SW8" secondAttribute="top" id="AHO-Io-wX1"/>
+                            <constraint firstItem="Dof-4K-SW8" firstAttribute="top" secondItem="k6W-Ph-QQq" secondAttribute="bottom" constant="4" id="J5U-cM-P72"/>
+                            <constraint firstItem="4SZ-W8-TZV" firstAttribute="bottom" secondItem="Dof-4K-SW8" secondAttribute="bottom" id="KEU-uQ-pgK"/>
+                            <constraint firstItem="swM-gI-vbk" firstAttribute="trailing" secondItem="TU2-rJ-Nnx" secondAttribute="trailing" id="MJk-Jy-B5s"/>
+                            <constraint firstItem="yoY-re-ap5" firstAttribute="trailing" secondItem="Dof-4K-SW8" secondAttribute="trailing" id="NJm-Oo-cnM"/>
+                            <constraint firstItem="TU2-rJ-Nnx" firstAttribute="top" secondItem="o5j-7U-6rd" secondAttribute="top" constant="8" id="Nui-rh-n0B"/>
+                            <constraint firstItem="k6W-Ph-QQq" firstAttribute="leading" secondItem="TU2-rJ-Nnx" secondAttribute="leading" id="TSf-5H-GZg"/>
+                            <constraint firstItem="k6W-Ph-QQq" firstAttribute="trailing" secondItem="TU2-rJ-Nnx" secondAttribute="trailing" id="URu-3p-wLg"/>
+                            <constraint firstItem="yoY-re-ap5" firstAttribute="top" secondItem="Dof-4K-SW8" secondAttribute="bottom" constant="6" id="ZsA-xu-Hhn"/>
+                            <constraint firstItem="TU2-rJ-Nnx" firstAttribute="leading" secondItem="o5j-7U-6rd" secondAttribute="leading" constant="8" id="cRp-IZ-bYn"/>
+                            <constraint firstItem="swM-gI-vbk" firstAttribute="leading" secondItem="TU2-rJ-Nnx" secondAttribute="leading" id="k37-1l-ke7"/>
+                            <constraint firstItem="swM-gI-vbk" firstAttribute="top" secondItem="yoY-re-ap5" secondAttribute="bottom" constant="4" id="nbu-vS-qpj"/>
+                            <constraint firstItem="swM-gI-vbk" firstAttribute="leading" secondItem="k6W-Ph-QQq" secondAttribute="leading" id="p7Y-35-R5b"/>
+                            <constraint firstItem="k6W-Ph-QQq" firstAttribute="top" secondItem="TU2-rJ-Nnx" secondAttribute="bottom" constant="8" id="qhF-13-U4M"/>
+                            <constraint firstItem="yoY-re-ap5" firstAttribute="leading" secondItem="Dof-4K-SW8" secondAttribute="leading" id="tXe-tk-0LM"/>
+                            <constraint firstItem="Dof-4K-SW8" firstAttribute="leading" secondItem="k6W-Ph-QQq" secondAttribute="leading" id="xU3-bE-onM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.88235294819999999" green="0.92156863209999995" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="o5j-7U-6rd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="M9a-PV-kuQ"/>
+                <constraint firstItem="o5j-7U-6rd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QlT-11-vdf"/>
+                <constraint firstAttribute="trailing" secondItem="o5j-7U-6rd" secondAttribute="trailing" id="YaK-qh-fdI"/>
+                <constraint firstAttribute="bottom" secondItem="o5j-7U-6rd" secondAttribute="bottom" id="q2l-Mk-ozy"/>
+            </constraints>
+            <size key="customSize" width="360" height="166"/>
+            <connections>
+                <outlet property="LabelWon" destination="swM-gI-vbk" id="9oy-QQ-r7v"/>
+                <outlet property="labelColorChekerPlayerOne" destination="yoY-re-ap5" id="7kc-9f-CXY"/>
+                <outlet property="labelColorChekerPlayerTwo" destination="Lbn-VN-K8R" id="GNF-mW-3zc"/>
+                <outlet property="labelDate" destination="TU2-rJ-Nnx" id="Z6g-So-qul"/>
+                <outlet property="labelGameTime" destination="k6W-Ph-QQq" id="EAg-Kk-dgn"/>
+                <outlet property="labelPlayerOne" destination="Dof-4K-SW8" id="YgR-vj-3Ec"/>
+                <outlet property="labelPlayerTwo" destination="4SZ-W8-TZV" id="PRe-bX-5Us"/>
+                <outlet property="view" destination="o5j-7U-6rd" id="tml-xX-8aU"/>
+            </connections>
+            <point key="canvasLocation" x="182.60869565217394" y="95.089285714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

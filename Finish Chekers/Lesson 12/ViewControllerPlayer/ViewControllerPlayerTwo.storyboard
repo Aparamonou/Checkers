@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GloriaHallelujah-Regular.ttf">
+            <string>GloriaHallelujah</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller Player Two-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerPlayerTwo" id="Y6W-OH-hqX" customClass="ViewControllerPlayerTwo" customModule="Lesson_12" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ft5-pI-XKH">
+                                <rect key="frame" x="0.0" y="11" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xpp-J3-lbz">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZQ-XD-ebw">
+                                            <rect key="frame" x="36" y="354" width="342" height="188"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHP-Gu-biz">
+                                                    <rect key="frame" x="25" y="131" width="140" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="6K3-ET-Lu1"/>
+                                                        <constraint firstAttribute="width" constant="140" id="Pup-IB-HEh"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <state key="normal" title="Enter">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="buttonEnter:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="70Z-cb-Wg6"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name player two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4I-Hr-L9V">
+                                                    <rect key="frame" x="25" y="25" width="292" height="42"/>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <color key="shadowColor" red="1" green="0.34820509259999999" blue="0.51885192830000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter your name " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RGG-yN-9gR">
+                                                    <rect key="frame" x="25" y="75" width="292" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="YHY-VS-oZk"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRK-pD-Ufp">
+                                                    <rect key="frame" x="177" y="131" width="140" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="cGu-0t-Qwp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <state key="normal" title="Cancel">
+                                                        <color key="titleColor" systemColor="systemRedColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="buttonCancel:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9GD-eL-pMa"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="RGG-yN-9gR" firstAttribute="trailing" secondItem="l4I-Hr-L9V" secondAttribute="trailing" id="3Ze-xA-taE"/>
+                                                <constraint firstAttribute="width" constant="342" id="3dO-KQ-YYA"/>
+                                                <constraint firstItem="hHP-Gu-biz" firstAttribute="top" secondItem="RGG-yN-9gR" secondAttribute="bottom" constant="16" id="7Ez-0Z-83K"/>
+                                                <constraint firstItem="hHP-Gu-biz" firstAttribute="leading" secondItem="RGG-yN-9gR" secondAttribute="leading" id="8mL-PS-01b"/>
+                                                <constraint firstItem="qRK-pD-Ufp" firstAttribute="trailing" secondItem="RGG-yN-9gR" secondAttribute="trailing" id="99s-fI-JzN"/>
+                                                <constraint firstAttribute="trailing" secondItem="l4I-Hr-L9V" secondAttribute="trailing" constant="25" id="HCg-mo-9Z6"/>
+                                                <constraint firstItem="qRK-pD-Ufp" firstAttribute="bottom" secondItem="hHP-Gu-biz" secondAttribute="bottom" id="I35-H7-acJ"/>
+                                                <constraint firstItem="l4I-Hr-L9V" firstAttribute="leading" secondItem="KZQ-XD-ebw" secondAttribute="leading" constant="25" id="MU5-gO-KHS"/>
+                                                <constraint firstItem="l4I-Hr-L9V" firstAttribute="top" secondItem="KZQ-XD-ebw" secondAttribute="top" constant="25" id="U54-Td-4XK"/>
+                                                <constraint firstItem="qRK-pD-Ufp" firstAttribute="top" secondItem="RGG-yN-9gR" secondAttribute="bottom" constant="16" id="Zmu-MS-vxV"/>
+                                                <constraint firstItem="RGG-yN-9gR" firstAttribute="top" secondItem="l4I-Hr-L9V" secondAttribute="bottom" constant="8" id="bMp-EZ-iZC"/>
+                                                <constraint firstItem="qRK-pD-Ufp" firstAttribute="top" secondItem="hHP-Gu-biz" secondAttribute="top" id="spS-tL-zXw"/>
+                                                <constraint firstAttribute="height" constant="188" id="tOi-gD-WHo"/>
+                                                <constraint firstItem="RGG-yN-9gR" firstAttribute="leading" secondItem="l4I-Hr-L9V" secondAttribute="leading" id="xZY-ng-abC"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="KZQ-XD-ebw" firstAttribute="centerX" secondItem="xpp-J3-lbz" secondAttribute="centerX" id="2hX-II-zV4"/>
+                                        <constraint firstItem="KZQ-XD-ebw" firstAttribute="centerY" secondItem="xpp-J3-lbz" secondAttribute="centerY" id="V6q-ND-D0b"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ft5-pI-XKH" secondAttribute="trailing" id="Ggw-ge-TLS"/>
+                            <constraint firstItem="ft5-pI-XKH" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Hp2-KE-jbd"/>
+                            <constraint firstAttribute="bottom" secondItem="ft5-pI-XKH" secondAttribute="bottom" id="VhE-1p-jXM"/>
+                            <constraint firstItem="ft5-pI-XKH" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="eHQ-zv-t5c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelPlayerTwo" destination="l4I-Hr-L9V" id="E0e-Pi-cOl"/>
+                        <outlet property="textFieldPlayerTwo" destination="RGG-yN-9gR" id="re3-4Z-Qvp"/>
+                        <outlet property="viewContent" destination="KZQ-XD-ebw" id="GgQ-gp-JS5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="32.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

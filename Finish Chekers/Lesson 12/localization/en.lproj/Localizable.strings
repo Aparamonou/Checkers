@@ -1,0 +1,59 @@
+/* 
+  Localized.strings
+  Lesson 12
+
+  Created by Alex Paramonov on 28.09.21.
+  
+*/
+// главный экран
+"custom_button_play" = "Play";
+"custom_button_settings" = "Settings";
+"custom_button_result" = "Result";
+"continue_the_game" = "Do you want to continue the saved game";
+"button_new_game" = "New game";
+"button_resume_game" = "Resume";
+
+// Кастомный алерт для ввода имен игроков
+"label_name_alert_Error" = "Names not entered";
+"label_name_alert" = "Enter players names";
+"textFieldPlayerOne_placeholder" = "Player One";
+"textFieldPlayerTwo_placeholder" = "Player Two";
+"button_Enter_Alert" = "Enter";
+"button_Cancel_Alert" = "Cancel";
+
+
+// экран play
+"label_Name_Players_Move" = "";
+"label_Game_Time" = "Game time";
+"button_Back_Main_Menu" = "Back main menu";
+"alert_title_save" = "Save game?";
+"alert_button_Yes" = "Yes";
+"alert_button_No" = "No";
+"alert_wingame_title" = "\(winnerPlayer) Won,Game time - \(countTickMin) Min";
+"alert_button_back_memnu" = "back menu";
+"labal_name_white" = "'s turn"; 
+
+
+// экран settings
+"lable_Language" = "Language";
+"label_Style_Chekers" = "Cheker's Style";
+"button_Upload_Background" = "Upload background";
+"button_Cheker_History" = "Cheker's history";
+
+
+// экран истории шашек
+
+"label_history_cheker" = "History of Checkers Easily Explained";
+
+"label_text_one" = "While the oldest known Checkers artifact unearthed in Iraq dates back to 3000 BC, the earliest known version of the game comes from a game called Alquerque, which was played in ancient Egypt in 1400 BC. After years of being played the Egyptian way, in 1100 AD, a Frenchman adapted it to be played on a Chessboard with 12 pieces per player.
+	Then, in 1756 an English mathematician created official rules for the game, and in 1840 was the start of the very first World Championships. Arthur Samuel then created a computerized Checkers program in 1952, which helped turn Checkers into the global phenomenon it is today. In 2007, the game was “solved” by a team of researchers from the University of Alberta (in Canada) led by Jonathan Schaeffer.";
+
+"label_text_two" = "As you can see, there is not too much depth to the history of Checkers. Who officially created the first version of Checkers is unknown, and even though the oldest Checkers artifact found dates back to 3000 BC, was it perhaps based on a game that has even older origins? There are many unanswered questions when it comes to the history of Checkers.
+
+That being said, the history of Checkers is somewhat vague in that no one truly knows its exact origins. There are various ancient games that have a similar concept, and so the history of the game is not quite precise. If you want to learn a little more about the summarized version of the history Checkers mentioned above, read on.";
+
+
+// экран результатов 
+
+"label_delete_button" = "Delete result";
+

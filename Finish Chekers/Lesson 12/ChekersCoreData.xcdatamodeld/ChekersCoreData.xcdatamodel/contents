@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="game_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="game_time" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Players" inverseName="game" inverseEntity="Players"/>
+    </entity>
+    <entity name="Players" representedClassName="Players" syncable="YES">
+        <attribute name="color_cheker_player1" optional="YES" attributeType="String"/>
+        <attribute name="color_cheker_player2" optional="YES" attributeType="String"/>
+        <attribute name="name_player1" optional="YES" attributeType="String"/>
+        <attribute name="name_player2" optional="YES" attributeType="String"/>
+        <attribute name="won" optional="YES" attributeType="String"/>
+        <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="players" inverseEntity="Game"/>
+    </entity>
+    <elements>
+        <element name="Players" positionX="268.88671875" positionY="-48.765625" width="128" height="133"/>
+        <element name="Game" positionX="-77.75" positionY="-5.546875" width="128" height="88"/>
+    </elements>
+</model>

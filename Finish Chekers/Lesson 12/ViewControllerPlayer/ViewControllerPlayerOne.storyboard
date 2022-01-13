@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GloriaHallelujah-Regular.ttf">
+            <string>GloriaHallelujah</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller Player One-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerPlayerOne" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ViewControllerPlayerOne" customModule="Lesson_12" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xj3-Mh-prB">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kms-n9-Xju">
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFq-5i-yMu">
+                                            <rect key="frame" x="43" y="338" width="342" height="250"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter players names" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyu-dI-k1P">
+                                                    <rect key="frame" x="25" y="25" width="292" height="42"/>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <color key="shadowColor" red="1" green="0.34820509259999999" blue="0.51885192830000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Player One " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTz-IZ-UCM">
+                                                    <rect key="frame" x="25" y="75" width="292" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="j6B-oh-Grg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits" textContentType="name"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Player Two" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HkJ-Pr-GZg">
+                                                    <rect key="frame" x="25" y="135" width="292" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="rsp-bI-r77"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits" textContentType="name"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9Q-US-fcL">
+                                                    <rect key="frame" x="25" y="191" width="140" height="54"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="m35-83-mga"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <state key="normal" title="Cancel">
+                                                        <color key="titleColor" systemColor="systemRedColor"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="buttonCancel:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="aQI-zf-jNq"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrD-cr-YYO">
+                                                    <rect key="frame" x="177" y="191" width="140" height="54"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="Pzm-Gd-whD"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                                                    <state key="normal" title="Enter">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="buttonEnter:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3K3-wa-gOh"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.88235294819999999" green="0.92941176889999999" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="342" id="2QS-36-g9Z"/>
+                                                <constraint firstItem="HrD-cr-YYO" firstAttribute="bottom" secondItem="Z9Q-US-fcL" secondAttribute="bottom" id="4fu-Vb-g7C"/>
+                                                <constraint firstItem="HrD-cr-YYO" firstAttribute="trailing" secondItem="HkJ-Pr-GZg" secondAttribute="trailing" id="Esb-id-XEI"/>
+                                                <constraint firstItem="nTz-IZ-UCM" firstAttribute="top" secondItem="Gyu-dI-k1P" secondAttribute="bottom" constant="8" id="EwL-y0-UtV"/>
+                                                <constraint firstAttribute="trailing" secondItem="Gyu-dI-k1P" secondAttribute="trailing" constant="25" id="Gkx-AS-HLQ"/>
+                                                <constraint firstItem="nTz-IZ-UCM" firstAttribute="leading" secondItem="Gyu-dI-k1P" secondAttribute="leading" id="H7x-wS-hhg"/>
+                                                <constraint firstItem="HkJ-Pr-GZg" firstAttribute="top" secondItem="nTz-IZ-UCM" secondAttribute="bottom" constant="20" id="IAl-YC-xMw"/>
+                                                <constraint firstItem="HkJ-Pr-GZg" firstAttribute="leading" secondItem="nTz-IZ-UCM" secondAttribute="leading" id="KgS-Ye-xXm"/>
+                                                <constraint firstItem="nTz-IZ-UCM" firstAttribute="trailing" secondItem="Gyu-dI-k1P" secondAttribute="trailing" id="LbL-Ug-Hpm"/>
+                                                <constraint firstItem="Gyu-dI-k1P" firstAttribute="leading" secondItem="xFq-5i-yMu" secondAttribute="leading" constant="25" id="N8F-bT-jw7"/>
+                                                <constraint firstItem="HrD-cr-YYO" firstAttribute="top" secondItem="Z9Q-US-fcL" secondAttribute="top" id="Rk8-ju-HU2"/>
+                                                <constraint firstItem="HkJ-Pr-GZg" firstAttribute="trailing" secondItem="nTz-IZ-UCM" secondAttribute="trailing" id="c7p-gg-9Q3"/>
+                                                <constraint firstItem="Z9Q-US-fcL" firstAttribute="top" secondItem="HkJ-Pr-GZg" secondAttribute="bottom" constant="16" id="hp8-0a-264"/>
+                                                <constraint firstItem="Gyu-dI-k1P" firstAttribute="top" secondItem="xFq-5i-yMu" secondAttribute="top" constant="25" id="iTw-5z-FJx"/>
+                                                <constraint firstItem="Z9Q-US-fcL" firstAttribute="leading" secondItem="HkJ-Pr-GZg" secondAttribute="leading" id="q4x-jS-iJf"/>
+                                                <constraint firstAttribute="height" constant="250" id="ztB-2V-E3H"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="35"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="xFq-5i-yMu" firstAttribute="centerY" secondItem="kms-n9-Xju" secondAttribute="centerY" id="IEk-Ad-jQL"/>
+                                        <constraint firstItem="xFq-5i-yMu" firstAttribute="centerX" secondItem="kms-n9-Xju" secondAttribute="centerX" id="zvy-Qq-jua"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xj3-Mh-prB" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="16T-sa-pLd"/>
+                            <constraint firstItem="xj3-Mh-prB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="5FQ-09-032"/>
+                            <constraint firstAttribute="bottom" secondItem="xj3-Mh-prB" secondAttribute="bottom" id="SMc-W9-Zaa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xj3-Mh-prB" secondAttribute="trailing" id="ehg-pa-T4j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonCancelAlert" destination="Z9Q-US-fcL" id="Ul2-6P-N7J"/>
+                        <outlet property="buttonEnterAlert" destination="HrD-cr-YYO" id="bVF-PL-z7m"/>
+                        <outlet property="labelNameAlert" destination="Gyu-dI-k1P" id="fbf-qN-PK1"/>
+                        <outlet property="textFieldPlayerOne" destination="nTz-IZ-UCM" id="5G5-7n-fAk"/>
+                        <outlet property="textFieldPlayerTwo" destination="HkJ-Pr-GZg" id="Bph-qe-FHg"/>
+                        <outlet property="viewContent" destination="xFq-5i-yMu" id="Lmx-GO-0nw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="32.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

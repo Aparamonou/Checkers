@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Br-eg-EjR"; */
+"4Br-eg-EjR.text" = "Label";
+
+/* Class = "UILabel"; text = "History of Checkers –  Easily Explained"; ObjectID = "6qU-Y6-uox"; */
+"6qU-Y6-uox.text" = "History of Checkers –  Easily Explained";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "7b2-0K-bBL"; */
+"7b2-0K-bBL.text" = "Language";
+
+/* Class = "UILabel"; text = "While the oldest known Checkers artifact unearthed in Iraq dates back to 3000 BC, the earliest known version of the game comes from a game called Alquerque, which was played in ancient Egypt in 1400 BC. After years of being played the Egyptian way, in 1100 AD, a Frenchman adapted it to be played on a Chessboard with 12 pieces per player.\n\nThen, in 1756 an English mathematician created official rules for the game, and in 1840 was the start of the very first World Championships. Arthur Samuel then created a computerized Checkers program in 1952, which helped turn Checkers into the global phenomenon it is today. In 2007, the game was “solved” by a team of researchers from the University of Alberta (in Canada) led by Jonathan Schaeffer."; ObjectID = "Lgb-9X-MWq"; */
+"Lgb-9X-MWq.text" = "While the oldest known Checkers artifact unearthed in Iraq dates back to 3000 BC, the earliest known version of the game comes from a game called Alquerque, which was played in ancient Egypt in 1400 BC. After years of being played the Egyptian way, in 1100 AD, a Frenchman adapted it to be played on a Chessboard with 12 pieces per player.\n\nThen, in 1756 an English mathematician created official rules for the game, and in 1840 was the start of the very first World Championships. Arthur Samuel then created a computerized Checkers program in 1952, which helped turn Checkers into the global phenomenon it is today. In 2007, the game was “solved” by a team of researchers from the University of Alberta (in Canada) led by Jonathan Schaeffer.";
+
+/* Class = "UIBarButtonItem"; title = "Back Menu"; ObjectID = "LlZ-ao-xcT"; */
+"LlZ-ao-xcT.title" = "Back Menu";
+
+/* Class = "UIButton"; normalTitle = "Back to menu"; ObjectID = "N4v-pF-M5r"; */
+"N4v-pF-M5r.normalTitle" = "Back to menu";
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "QmP-y2-llX"; */
+"QmP-y2-llX.title" = "Menu";
+
+/* Class = "UILabel"; text = "Game time"; ObjectID = "TUq-n8-BJA"; */
+"TUq-n8-BJA.text" = "Game time";
+
+/* Class = "UISegmentedControl"; TuX-lv-csF.segmentTitles[0] = "English"; ObjectID = "TuX-lv-csF"; */
+"TuX-lv-csF.segmentTitles[0]" = "English";
+
+/* Class = "UISegmentedControl"; TuX-lv-csF.segmentTitles[1] = "Russian"; ObjectID = "TuX-lv-csF"; */
+"TuX-lv-csF.segmentTitles[1]" = "Russian";
+
+/* Class = "UILabel"; text = "Upload background"; ObjectID = "Uli-SP-gLi"; */
+"Uli-SP-gLi.text" = "Upload background";
+
+/* Class = "UIButton"; normalTitle = "Back to menu"; ObjectID = "cHs-JH-Cez"; */
+"cHs-JH-Cez.normalTitle" = "Back to menu";
+
+/* Class = "UIButton"; normalTitle = "Сheckers history"; ObjectID = "iGn-Hc-xqq"; */
+"iGn-Hc-xqq.normalTitle" = "Сheckers history";
+
+/* Class = "UILabel"; text = "As you can see, there is not too much depth to the history of Checkers. Who officially created the first version of Checkers is unknown, and even though the oldest Checkers artifact found dates back to 3000 BC, was it perhaps based on a game that has even older origins? There are many unanswered questions when it comes to the history of Checkers.\n\nThat being said, the history of Checkers is somewhat vague in that no one truly knows its exact origins. There are various ancient games that have a similar concept, and so the history of the game is not quite precise. If you want to learn a little more about the summarized version of the history Checkers mentioned above, read on."; ObjectID = "xER-4r-CsX"; */
+"xER-4r-CsX.text" = "As you can see, there is not too much depth to the history of Checkers. Who officially created the first version of Checkers is unknown, and even though the oldest Checkers artifact found dates back to 3000 BC, was it perhaps based on a game that has even older origins? There are many unanswered questions when it comes to the history of Checkers.\n\nThat being said, the history of Checkers is somewhat vague in that no one truly knows its exact origins. There are various ancient games that have a similar concept, and so the history of the game is not quite precise. If you want to learn a little more about the summarized version of the history Checkers mentioned above, read on.";
+
+/* Class = "UILabel"; text = "Style  Chekers"; ObjectID = "xKE-Mc-JWQ"; */
+"xKE-Mc-JWQ.text" = "Style  Chekers";

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GloriaHallelujah-Regular.ttf">
+            <string>GloriaHallelujah</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomButton" customModule="Lesson_12" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="U9r-53-m5f"/>
+                <outlet property="customLabel" destination="2Bh-Vc-P9I" id="V75-kE-6mA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="186" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bh-Vc-P9I">
+                    <rect key="frame" x="73" y="5.5" width="40" height="44"/>
+                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <size key="shadowOffset" width="2" height="2"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndD-T0-gAq">
+                    <rect key="frame" x="0.0" y="0.0" width="186" height="55"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="21"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="tapButton:" destination="-1" eventType="touchUpInside" id="o5y-fE-PRx"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ndD-T0-gAq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4AW-bd-m2t"/>
+                <constraint firstAttribute="bottom" secondItem="ndD-T0-gAq" secondAttribute="bottom" id="BcI-bg-zvG"/>
+                <constraint firstItem="2Bh-Vc-P9I" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Dio-ue-mTR"/>
+                <constraint firstItem="ndD-T0-gAq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HN8-LX-AT0"/>
+                <constraint firstAttribute="trailing" secondItem="ndD-T0-gAq" secondAttribute="trailing" id="Qv0-eO-NEL"/>
+                <constraint firstItem="2Bh-Vc-P9I" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="VZP-sR-gMs"/>
+                <constraint firstAttribute="trailing" secondItem="ndD-T0-gAq" secondAttribute="trailing" id="YxF-fX-T2C"/>
+                <constraint firstItem="ndD-T0-gAq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dZX-zP-4V2"/>
+                <constraint firstItem="ndD-T0-gAq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sU6-Fe-AQc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="108.69565217391305" y="88.727678571428569"/>
+        </view>
+    </objects>
+</document>
